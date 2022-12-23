@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div>
+        <img class="logo" src="./pokemon.png" alt="">
+    </div>
+
+ <button class="btn_hard" id="btn">&#x2764;</button>
+    <section class="section" id="modal">
+        <aside class="aside">
+            <button id="aside_btn" class="aside_btn">&#10006;</button>
+            <ul id="modal-card">
+
+            </ul>
+        </aside>
+    </section>
+    
+    <form id="form">
+        <input type="search" name="search" placeholder="search">
+        <select name="typs">
+            <option value="all">all</option>
+            <option value="Bug">Bug</option>
+            <option value="Flying">Flying</option>
+            <option value="Poison">Poison</option>
+            <option value="Flying">Flying</option>
+            <option value="Water">Water</option>
+            <option value="Normal">Normal</option>
+            <option value="Electric">Electric</option> 
+        </select>
+        <select name="sort">
+            <option value="a-z">A-Z</option>
+            <option value="z-a">Z-A</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <h2 id="title"></h2>
+
+    <ul id="box" class="box1">
+       
+    </ul>
+
+    <script src="./pokemons.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
